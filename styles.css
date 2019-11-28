@@ -1,4 +1,4 @@
-nav {
+body {
     font-family: arial;
     font-size: 13px;
 }
@@ -26,12 +26,16 @@ nav li a {
 
 #right-navbar {
     position: absolute;
-    top: -10px;
-    right: 0;
+    top: 0;
+    right: 12px;
 }
 
-#appsicon {
-    background: url('/googleapps.png') no-repeat;
+#apps-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 8px;
+    opacity: 0.75;
 }
 
 #signin {
@@ -40,8 +44,60 @@ nav li a {
     background-color: #4387fd;
     line-height: 28px;
     padding: 0 12px;
+    border: 1px;
     border-style: solid;
     border-color: #4285f4; 
-    border: 1px;
     border-radius: 2px;
+}
+
+#search-area {
+    padding-top: 190px;
+    text-align: center;  
+}
+
+#search-box {
+    width: 584px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfe1e5;
+    border-radius: 75px;
+    text-align: right;
+}
+
+#search-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    opacity: 40%;
+}
+
+#search-field {
+    width: 527px;
+    height: 34px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 7px;
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+}
+
+#button-area {
+    padding-top: 40px;
+}
+
+.buttons {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    min-width: 54px;
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0 4px;
 }
