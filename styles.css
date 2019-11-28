@@ -18,7 +18,11 @@ nav li a {
     opacity: 0.7;
 }
 
-/* Upper nav bar */
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/* Upper navbar */
 #left-navbar {
     position: absolute;
     top: 10px;
@@ -37,6 +41,10 @@ nav li a {
     position: relative;
     top: 8px;
     opacity: 0.75;
+}
+
+#apps-icon:hover {
+    opacity: 1;
 }
 
 #signin {
@@ -68,6 +76,11 @@ nav li a {
     border-color: #dfe1e5;
     border-radius: 75px;
     text-align: right;
+}
+
+#search-box:hover {
+    border-color:rgba(223,225,229,0);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
 #search-icon {
@@ -104,7 +117,13 @@ nav li a {
     margin: 0 4px;
 }
 
-/* Bottom nav bar */
+.buttons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid#c6c6c6;
+    color:#222;
+}
+
+/* Bottom navbar */
 #bottom-nav {
     position: absolute;
     bottom: 0;
